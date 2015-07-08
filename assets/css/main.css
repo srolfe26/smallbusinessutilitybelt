@@ -32,3 +32,9 @@ h2 {
     max-width: 960px;
     margin: 0 auto;
 }
+
+.toolbelt {
+    height: 200px;
+    margin: 100px 0;
+    background-color: #F4F461;
+}

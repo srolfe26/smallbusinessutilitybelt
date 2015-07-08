@@ -1,11 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,900);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,900);
 
 body, html {
     margin:0;
     padding:0;
     min-width: 320px;
     font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
 }
@@ -24,8 +24,7 @@ h1 {
 }
 
 h2 {
-    font-weight: 100;
-    font-size: 3em;
+    font-weight: 300;
 }
 
 .content {
@@ -34,7 +33,17 @@ h2 {
 }
 
 .toolbelt {
-    height: 200px;
+    height: 300px;
     margin: 100px 0;
     background-color: #F4F461;
+    color: #AAB69B;
+    font-weight: 400;
+    padding: 0.25em 1em;
+    box-shadow: 0 0 25px #553;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
 }
